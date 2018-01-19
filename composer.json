@@ -21,5 +21,12 @@
         "psr-4" : {
             "Molayli\\" : "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Molayli\\CloudflareRealIpServiceProvider"
+            ]
+        }
     }
 }
