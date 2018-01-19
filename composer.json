@@ -1,0 +1,17 @@
+{
+    "name": "molayli/laravel-cloudflare-real-ip",
+    "description": "Get the real ip for laravel applications behind cloudflare's reverse proxy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Billal",
+            "email": "hello@molayli.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "Molayli\\" : "src"
+        }
+    }
+}
