@@ -2,13 +2,21 @@
     "name": "molayli/laravel-cloudflare-real-ip",
     "description": "Get the real ip for laravel applications behind cloudflare's reverse proxy",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "cloudflare",
+        "real ip address"
+    ],
+    "homepage": "https://github.com/molayli/laravel-cloudflare-real-ip",
     "authors": [
         {
             "name": "Billal",
             "email": "hello@molayli.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php" : ">=7.0"
+    },
     "autoload" : {
         "psr-4" : {
             "Molayli\\" : "src"
